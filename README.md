@@ -18,6 +18,7 @@ Przewidujemy prawdopodobieństwo, że listing zawiera symulowany błąd (target=
 
 ## Pliki
 
+- `01_eda.ipynb` — analiza danych z 6 wizualizacjami i wnioskami (class balance, H3 quantity mismatch, H4 price/weight tails, missingness, seller effects, rule engine)
 - `02_model.ipynb` — pipeline modelowania z opisem metod i wynikami CV
 
 ## Reprodukcja
