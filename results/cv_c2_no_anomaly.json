@@ -1,0 +1,72 @@
+{
+  "name": "c2_no_anomaly",
+  "extractor": "main_items",
+  "groups": [
+    "base",
+    "quantity",
+    "phrase"
+  ],
+  "features": [
+    "log_price_pln",
+    "log_shipping_weight_kg",
+    "log_pack_size",
+    "price_per_item",
+    "mass_per_item",
+    "price_per_weight",
+    "title_len",
+    "desc_len",
+    "desc_title_ratio",
+    "isna_title",
+    "isna_description",
+    "isna_declared_category",
+    "isna_brand",
+    "isna_condition",
+    "isna_price",
+    "isna_weight",
+    "category_in_text",
+    "text_is_short",
+    "main_items",
+    "free_acc",
+    "mvp_mismatch",
+    "pack_vs_main",
+    "pack_vs_main_abs",
+    "phrase_purity",
+    "cat_contradicts_strict",
+    "pack_anomaly_pp",
+    "rule_score",
+    "declared_category",
+    "brand",
+    "condition"
+  ],
+  "n_features": 30,
+  "oof_roc_auc": 0.9200028152206461,
+  "oof_average_precision": 0.8465673715169517,
+  "fold_roc_auc": [
+    0.9103037828316717,
+    0.9190352209445288,
+    0.9210443236833353,
+    0.9267667821149953,
+    0.9222529436700811
+  ],
+  "mean_fold_roc_auc": 0.9198806106489223,
+  "std_fold_roc_auc": 0.005419074907093667,
+  "fold_seconds": [
+    8.410214511999811,
+    8.510393870000144,
+    8.607146263000004,
+    8.26411890899999,
+    8.491167988000143
+  ],
+  "elapsed_seconds": 43.2345215790001,
+  "seed": 42,
+  "n_trees": 400,
+  "versions": {
+    "python": "3.13.17",
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "lightgbm": "4.6.0"
+  },
+  "data_sha256": null,
+  "fold_assignment_sha256": "dda65b9df2a806620c958e7c38199e2b9ceb1b0190992b8316f40bdf93f36b8c"
+}
