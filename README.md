@@ -13,7 +13,7 @@ Przewidujemy prawdopodobieństwo, że listing zawiera symulowany błąd (target=
 
 | Konfiguracja | OOF AUC | LB |
 |---|---|---|
-| `ref` (finalna) | 0.9688 | **0.97256** |
+| finalna | 0.9688 | **0.97256** |
 | pierwsza | 0.9683 | 0.96594 |
 
 ## Struktura repo
