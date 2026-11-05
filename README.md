@@ -16,20 +16,18 @@ Przewidujemy prawdopodobieństwo, że listing zawiera symulowany błąd (target=
 | finalna | 0.9688 | **0.97256** |
 | pierwsza | 0.9683 | 0.96594 |
 
-## Struktura repo
+## Pliki
 
-- `notebooks/01_eda.ipynb` — analiza danych z wizualizacjami i wnioskami
-- `notebooks/02_model.ipynb` — pełny pipeline modelowania
-- `src/pipeline.py` — kod produkcyjny (ekstrakcja cech, CV, inferencja)
-- `src/features.py` — ekstrakcja cech (wyciągnięta z pipeline.py)
-- `results/cv_ref.json` — metryki CV (per-fold + pooled)
-- `results/leaderboard_screenshot.png` — potwierdzenie wyniku
-- `docs/approach.md` — opis podejścia
-- `docs/challenges.md` — największe wyzwania
-- `presentation/presentation.pdf` — prezentacja
+- `02_model.ipynb` — pipeline modelowania z opisem metod i wynikami CV
 
 ## Reprodukcja
 
-```bash
-pip install -r requirements.txt
-python -m src.pipeline --data-dir data/ --out-dir results/
+Otwórz `02_model.ipynb` na Kaggle (dane dołączone jako input) i uruchom **Run All**.
+
+## Wymagania
+
+Python 3.13, numpy 2.1.3, pandas 2.3.3, scikit-learn 1.6.1, lightgbm 4.6.0.
+
+## Licencja
+
+MIT
