@@ -1,8 +1,9 @@
 # Catalogue Quality Challenge — DSC PJATK
 
-**Grupa:** <NR>  
-**Skład:** <Imię Nazwisko>, <Imię Nazwisko>  
-**Wynik Kaggle:** 0.97256 ROC-AUC (widoczny w rankingu pod nazwą zespołu `<TEAM_NAME>`)
+**Grupa:** Team 2 
+**Skład:** Piotr Egeman, Maciej Gruza
+**Wynik Kaggle:** 0.97256 ROC-AUC, 0.96594 ROC-AUC
+
 
 ## Opis zadania
 
@@ -13,6 +14,7 @@ Przewidujemy prawdopodobieństwo, że listing zawiera symulowany błąd (target=
 | Konfiguracja | OOF AUC | LB |
 |---|---|---|
 | `ref` (finalna) | 0.9688 | **0.97256** |
+| pierwsza | 0.9683 | 0.96594 |
 
 ## Struktura repo
 
